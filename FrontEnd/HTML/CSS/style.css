@@ -1,0 +1,141 @@
+h1 {
+    color: rgb(236, 14, 47, 0.5);
+    text-align: center;
+    line-height: 1;
+}
+
+* {
+    background-color: white;
+}
+
+.error {
+    color: red;
+    letter-spacing: 4px;
+    word-spacing: 20px;
+}
+
+.green {
+    color: green;
+    background-color: whitesmoke;
+}
+
+#test {
+    color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.font-style {
+    font-family: Verdana;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+ul {
+    list-style: circle;
+    margin: 0%;
+    padding: 0%;
+}
+
+.box {
+    border: 1px solid rgb(197, 8, 8);
+    height: 100px;
+    width: auto;
+    padding: 20px;
+    margin: 50px;
+    background-color: blanchedalmond;
+
+
+}
+
+h2 {
+    color: red;
+    text-align: right;
+}
+
+h2 {
+    color: blue;
+    text-align: center;
+}
+
+/* class has higher presidence than the id selector */
+.sub {
+    color: blueviolet;
+}
+
+/* element has least presidence */
+h3 {
+    color: red;
+}
+
+/* Id has highest presidence */
+/* But inline has highest presedence than the all */
+#spefid {
+    color: rgb(22, 22, 22);
+}
+
+.inherit {
+    color: yellow;
+    font-family: 'Lucida Sans';
+    font-size: 30px;
+}
+
+
+th,td{
+    border: 3px solid;
+    padding: 15px;
+    border-bottom: 12px solid red;
+    
+}
+
+table{
+    border-collapse: collapse;
+    width: 60%;
+}
+td{
+    text-align: center;
+    height: 50px;
+}
+
+.con1{
+    margin: 20px;
+    border: 3px solid red;
+    display: inline;
+}
+
+
+.con2{
+    margin: 20px;
+    border: 3px solid blue;
+    display: block;
+    /* display: inline-flexbox; */
+}
+
+.pos1{
+    border: 1px solid red;
+    position: sticky;
+    top: 50px ;
+    left: 50px;
+    right: auto;
+    bottom: auto;
+}
+
+.pos2{
+    border: 1px solid blueviolet;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.container{
+    position: relative;
+    width: 200px;
+    height: 2000px;
+    border: 2px solid black;
+}

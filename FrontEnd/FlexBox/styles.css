@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+}
+
+.container {
+    border: 6px solid black;
+    /* display:inline-flex; */
+    display:flex;
+    height: 400px;
+    /* flex-direction: row; */
+    /* flex-direction: column; */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+
+    /* Flex flow syntex- >> flex-flow: <flex-direction> <flex-wrap> */
+    /* This can be used as a replacement for  flex-direction an flex wrap*/
+    /* Default */
+    /* flex-flow: row nowrap;  */
+    /* flex-flow: row-reverse wrap;  */
+    /* flex-flow: column nowrap;  */
+
+    /* Column and row Gap */
+    /* column-gap: 20px;
+    row-gap: 30px; */
+
+    /* Gap : row col -> replacement of the above*/
+    /* gap: 30px 20px; */
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+
+    /* align-content: space-between;  */
+
+
+}
+
+.flex-item {
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+    /* flex-shrink: 1; */
+}
+
+.item1{
+    background-color: rgb(22, 19, 129);
+    /* flex-grow: 1; */
+    /* flex-shrink: 4; */
+
+    align-self: flex-start;
+}
+.item2{
+    background-color: rgb(122, 33, 33);
+    /* order: 15; */
+    /* flex-grow: 2; */
+    align-self: flex-end;
+}
+.item3{
+    background-color: rgb(132, 61, 132);
+    /* order: 1; */
+    /* flex-basis: 100px; */
+    align-self: center;
+
+    
+}
+.item4{
+    background-color: rgb(73, 150, 150);
+    /* order: 12; */
+    align-self: baseline;
+}
+.item5{
+    background-color: rgb(171, 135, 81);
+    /* order: 2; */
+    align-self: stretch;
+}
+
+.item6{
+    background-color: rgb(122, 33, 33);
+}
+.item7{
+    background-color: rgb(132, 61, 132);
+    /* flex-grow: 12; */
+}
+.item8{
+    background-color: rgb(73, 150, 150);
+    /* flex-grow: 5; */
+}
+.item9{
+    background-color: rgb(171, 135, 81);
+}
+
